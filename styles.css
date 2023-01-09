@@ -13,11 +13,13 @@ nav {
 
 }
 
+/* NAVIGATION STYLING */
+
 .nav-title {
     display: flex;
     color: #f9faf8;
-    font-size: 24px;
     font-weight: 600;
+    font-size: 24px;
 }
 
 .nav-links {
@@ -32,6 +34,8 @@ nav {
     padding: 15px;
 }
 
+/* HERO HEADING STYLING */
+
 .first-container {
     background-color: #1F2937;
     color: #f9faf9;
@@ -44,16 +48,19 @@ nav {
 
 .first-container-text {
     display: flex;
+    flex: 0 1 750px;
     flex-direction: column;
-    width: 750px;
     height: 385px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .hero-heading {
     font-size: 48px;
     font-weight: 700;
     width: 900px;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-body {
@@ -61,12 +68,6 @@ nav {
     font-weight: 400;
     color: #e5e7eb;
     margin: 0;
-}
-
-.title-text>img {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
 }
 
 .header-btn {
@@ -79,7 +80,25 @@ nav {
     border-radius: 15px;
 
 }
-.second-container {}
+
+/* SECOND SECTION STYLING */
+
+.second-container {
+}
+.section-heading {
+    display: flex;
+    justify-content: center;
+}
+.project-images-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.project-images {
+    width: 500px;
+    height: 500px;
+}
 
 .padding {
     padding-left: 150px;
