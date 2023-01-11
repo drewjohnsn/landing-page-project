@@ -84,23 +84,61 @@ nav {
 /* SECOND SECTION STYLING */
 
 .second-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .section-heading {
     display: flex;
     justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 35px;
+
 }
 .project-images-section {
     display: flex;
-    align-items: center;
+    justify-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .project-images {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
+}
+.project-text {
+    max-width: 350px;
 }
 
 .padding {
     padding-left: 150px;
     padding-right: 150px;
+}
+.padding-two {
+    padding-left: 300px;
+    padding-right: 300px;
+    margin: 0;
+}
+.third-container {
+    background-color: #E5E7EB;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    color: #1F2937;
+}
+.quote-styling {
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0;
+    max-width: 1050px;
+}
+.quote-attribution {
+    font-size: 25px;
+    font-weight: 800;
+    align-self: flex-end;
+    margin: 0;
 }
