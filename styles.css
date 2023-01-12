@@ -136,17 +136,17 @@ nav {
     color: #1F2937;
     margin: 0;
     max-width: 1050px;
+    align-self: center;
 }
 .quote-attribution {
     font-size: 25px;
     font-weight: 800;
     align-self: flex-end;
     margin: 0;
+    padding-right: 130px;
 }
 
 /* FOURTH CONTAINER STYLING */
-
-/* 1/11/2023 - NEED TO STYLE THE TEXT ELEMENTS INSIDE THE CTA-BOX CLASS. */
 
 .fourth-container {
     border-radius: 3px;
