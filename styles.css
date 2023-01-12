@@ -84,8 +84,7 @@ nav {
 /* SECOND SECTION STYLING */
 
 .second-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 90px;
 }
 .section-heading {
     display: flex;
